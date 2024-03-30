@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path
-from galeria.views import index, imagem, buscar
+from apps.galeria.views import index, imagem, buscar
 
 urlpatterns = [
     path('', index, name='index'),
